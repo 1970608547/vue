@@ -57,7 +57,7 @@
                     type: 'warning'
                 }).then(function () {
                     localStorage.removeItem('access-admin')
-                    _this.$router.replace({path: '/login'})
+                    _this.$router.replace({path: '/'})
                 })
             }
         },

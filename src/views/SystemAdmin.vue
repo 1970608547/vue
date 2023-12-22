@@ -84,7 +84,7 @@
                     </el-breadcrumb>
                     <router-view></router-view>
                 </el-main>
-                <el-footer class="home_footer">2022 © DORMS</el-footer>
+                <el-footer class="home_footer">2023 © DORMS</el-footer>
             </el-container>
 
         </el-container>
@@ -102,7 +102,7 @@
                     type: 'warning'
                 }).then(function () {
                     localStorage.removeItem('systemAdmin')
-                    _this.$router.replace({path: '/login'})
+                    _this.$router.replace({path: '/'})
                 })
             }
         },
